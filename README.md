@@ -1,4 +1,16 @@
+# Setup
+
 Deploy FastApi 0.88.0 on Vercel with Serverless Functions using the Python Runtime.
+
+To auto generate requirements.txt:
+
+```
+uv pip compile pyproject.toml -o requirements.txt
+```
+
+it's configed in `vercel.json`
+
+# To Run
 
 With uvicorn
 
