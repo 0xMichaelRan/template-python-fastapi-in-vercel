@@ -1,4 +1,5 @@
 {
+  "buildCommand": "pip install uv && uv pip compile pyproject.toml -o requirements.txt",
   "builds": [
     {
       "src": "api/index.py",
