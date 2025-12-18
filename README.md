@@ -36,3 +36,11 @@ docker build -t deploy-python-fastapi-in-vercel .
 # Run the Docker container
 docker run -p 8000:8000 deploy-python-fastapi-in-vercel
 ```
+
+# To Test
+
+```
+uv add --dev pytest
+uv add --dev pytest-asyncio
+uv run pytest
+```
